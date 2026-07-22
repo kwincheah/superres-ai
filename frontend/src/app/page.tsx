@@ -18,6 +18,8 @@ const POLL_INTERVAL_MS = 2000;
 const MAX_POLL_ATTEMPTS = 120;
 const SUPABASE_STORAGE_URL = "https://eqdfrfjfqpbkmcuvggyl.supabase.co/storage/v1/object/public/images";
 
+
+
 function getBackendBaseUrl() {
   return (process.env.NEXT_PUBLIC_BACKEND_URL ?? DEFAULT_BACKEND_URL).replace(/\/+$/, "");
 }
