@@ -53,7 +53,7 @@ def get_env(name: str, *, required: bool = True, default: str | None = None) -> 
 
 
 def get_frontend_origins() -> list[str]:
-    origins_value = os.getenv("FRONTEND_ORIGINS", "http://localhost:3000")
+    origins_value = os.getenv("FRONTEND_ORIGINS", "http://localhost:3000","https://superres-ai-flax.vercel.app")
     return [origin.strip() for origin in origins_value.split(",") if origin.strip()]
 
 
