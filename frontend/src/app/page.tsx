@@ -13,7 +13,7 @@ import type {
   JobStatus,
 } from "@/lib/types";
 
-const DEFAULT_BACKEND_URL = "http://localhost:8000";
+const DEFAULT_BACKEND_URL = "https://superres-ai-flax.vercel.app";
 const POLL_INTERVAL_MS = 2000;
 const MAX_POLL_ATTEMPTS = 120;
 const SUPABASE_STORAGE_URL = "https://eqdfrfjfqpbkmcuvggyl.supabase.co/storage/v1/object/public/images";
